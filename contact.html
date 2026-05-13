@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تواصل معنا | شركة الشط الغربي</title>
+<meta name="description" content="تواصل مع شركة الشط الغربي - فروع طرابلس، الزاوية، ولندن. هواتف، إيميل، ونموذج طلب مباشر.">
+<link rel="icon" href="./logo.jpeg">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="home.html" class="logo">
+      <img src="./logo.jpeg" alt="شعار شركة الشط الغربي">
+      <span>West Beach</span>
+    </a>
+    <button class="burger" aria-label="القائمة">☰</button>
+    <ul class="nav-links">
+      <li><a href="home.html">الرئيسية</a></li>
+      <li><a href="products.html">المنتجات</a></li>
+      <li><a href="contact.html" class="active">تواصل معنا</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <h1>تواصل معنا</h1>
+    <p>نحن هنا للإجابة عن استفساراتكم وتلبية طلباتكم</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="contact-grid">
+      <div class="info-card">
+        <h3>معلومات التواصل</h3>
+        <div class="info-block">
+          <strong>📍 طرابلس</strong>
+          <p>سوق الأدوية - الدريبي</p>
+        </div>
+        <div class="info-block">
+          <strong>📍 الزاوية</strong>
+          <p>الفرع الرئيسي</p>
+        </div>
+        <div class="info-block">
+          <strong>📍 بريطانيا</strong>
+          <p>لندن - EUROAFRICA LTD</p>
+        </div>
+        <div class="info-block">
+          <strong>📞 الهواتف</strong>
+          <p><a href="tel:+218913924290">0913924290</a></p>
+          <p><a href="tel:+218925048446">0925048446</a></p>
+          <p><a href="tel:+447889763877">00447889763877</a></p>
+        </div>
+        <div class="info-block">
+          <strong>📧 البريد الإلكتروني</strong>
+          <p><a href="mailto:info@westbeach.ly">info@westbeach.ly</a></p>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <h3>نموذج الطلب</h3>
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">الاسم</label>
+            <input type="text" id="name" name="name" required maxlength="100">
+          </div>
+          <div class="form-group">
+            <label for="pharmacy">اسم الصيدلية / المصحة</label>
+            <input type="text" id="pharmacy" name="pharmacy" required maxlength="150">
+          </div>
+          <div class="form-group">
+            <label for="phone">رقم الهاتف</label>
+            <input type="tel" id="phone" name="phone" required maxlength="20" pattern="[0-9+\s\-]{6,20}">
+          </div>
+          <div class="form-group">
+            <label for="product">المنتج المطلوب</label>
+            <input type="text" id="product" name="product" required maxlength="200">
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%">إرسال الطلب</button>
+          <div class="form-msg" id="formMsg"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>شركة الشط الغربي</h4>
+        <p>استيراد الأدوية والمعدات الطبية بجودة عالمية منذ 2007.</p>
+      </div>
+      <div>
+        <h4>روابط سريعة</h4>
+        <ul>
+          <li><a href="home.html">الرئيسية</a></li>
+          <li><a href="products.html">المنتجات</a></li>
+          <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>تواصل</h4>
+        <ul>
+          <li>📧 <a href="mailto:info@westbeach.ly">info@westbeach.ly</a></li>
+          <li>📞 0913924290</li>
+          <li>📍 طرابلس - الزاوية - لندن</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 West Beach Company - شركة الشط الغربي. جميع الحقوق محفوظة.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
